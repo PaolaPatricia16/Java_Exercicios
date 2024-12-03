@@ -10,6 +10,7 @@ public class DifProduto {
 		
 		float n1, n2, n3, n4, diferenca;
 		
+		
 		System.out.println("Digite o primeiro valor: ");
 		n1 = leia.nextFloat();
 		
@@ -26,7 +27,7 @@ public class DifProduto {
 		
 		System.out.printf("A diferença do produto é de %.2f.", diferenca);
 		
-		
+		leia.close();
 				
 	}
 
